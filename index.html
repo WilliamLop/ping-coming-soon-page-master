@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="main">
+    <div class="card">
+      <figure class="card__figure">
+        <img src="images/logo.svg" alt="icon" class="card__logo">
+      </figure>
+
+      <section class="section__card">
+        <p class="card__title">We are launching <strong>soon!</strong></p>
+        <p class="card__paragraph">Subscribe and get notified</p>
+
+        <div class="from">
+          <form class="card__from">
+              <input type="email" name="email" id="email" class="from__email" placeholder="Your email address..." autocomplete="off">
+              <em id="email-error" class="message__error">Please provide a valid email address</em>
+              <input type="submit" value="Notify Me" class="from__submit" id="submit">
+          </form>
+        </div>
+
+        <figure class="figure__ilustration">
+          <img src="images/illustration-dashboard.png" alt="illustration-dashboard" class="figure__img">
+        </figure>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__social">
+      <a href="#" class="social__link">
+        <i class="fa-brands fa-facebook fa-lg"></i>
+      </a>
+      <a href="#" class="social__link">
+        <i class="fa-brands fa-twitter fa-lg"></i>
+      </a>
+      <a href="#" class="social__link">
+        <i class="fa-brands fa-instagram fa-lg"></i>
+      </a>
+    </div>
+    <p class="footer__copy">
+      &copy; Copyright Ping. All rights reser
+    </p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/766c25c2d0.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
